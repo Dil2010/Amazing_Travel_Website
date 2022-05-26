@@ -1,7 +1,11 @@
 # Travel Website
+## Large Devices
+![Amazing_Travel_Website for Desktop](/largedevices.png)
 
 
- 
+## Medium Devices
+![Amazing_Travel_Website for Mobile](/mediumdevices.png)
 
-![Amazing_Travel_Website for Desktop](/preview.png)
-![Amazing_Travel_Website for Mobile](/preview.png)
+
+## Small Devices
+![Amazing_Travel_Website for Mobile](/smalldevices.png)
