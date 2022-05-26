@@ -645,20 +645,21 @@ input {
 
 /*==============OUR PEOPLE================*/
 .box_our_people{
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;   */
-  gap: 180px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  /* margin-left: 100px; */
+  /* display: flex;
+  flex-direction: row; */
   background-color: var(--first-color);
   padding-top: 20px;
   padding-bottom: 20px;
+  
+  align-items: center;
 }
 
 .our_people{
   text-align: center;
-  padding: 10vh 5vw;
-  
+   
   
 }
 
@@ -689,6 +690,7 @@ input {
 .our_people_section {
   height: 400px;
   width: 300px;
+  margin-left: 50px;
   
 }
 
@@ -1116,22 +1118,27 @@ p.designation_our_people{
 /*=============People=============*/
 @media only screen and (max-width: 1020px){
   .box_our_people{
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
   }
   
 }
 
 @media only screen and (max-width: 768px){
-  .our_people {
+
+  .box_our_people{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+@media only screen and (max-width: 425px) {
+    .our_people {
     display: none;      
   }
 
   .people1{
     display: none;
   }
-
-  
-}
-@media only screen and (max-width: 425px) {
   
 } 
