@@ -170,6 +170,7 @@ input {
 .section__title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
+  /* color: white; */
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
@@ -663,12 +664,12 @@ input {
   
 }
 
-.our_people h2{
+/* .our_people h2{
   color: var(--first-color);
   font-size: var(--h2-font-size);
   margin-bottom: 8vh;
   
-}
+} */
 
 .our_people h5{
   color: white;
@@ -699,10 +700,10 @@ input {
   line-height: 1.5;
 }
 
-h5.author_our_people_section{
-  color: white;
+h3.author_our_people_section{
+  
   margin-top: 70px;
-  font-size: 22px;
+  
 }
 
 p.designation_our_people{
